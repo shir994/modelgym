@@ -7,8 +7,10 @@ from hyperopt.pyll.base import scope
 import copy
 import os
 
-from modelgym.models import XGBClassifier, LGBMClassifier, \
-                            XGBRegressor, LGBMRegressor
+# from modelgym.models import XGBClassifier, LGBMClassifier, \
+#                             XGBRegressor, LGBMRegressor
+from modelgym.models import XGBClassifier,\
+                            XGBRegressor                         
 from modelgym.utils import XYCDataset
 
 
